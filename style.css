@@ -1,0 +1,233 @@
+/* Add styles here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background: url(fress-coffee.avif); center/cover no-repat;
+    color:black;
+    text-align: center;
+    padding: 4rem;
+    position: relative;
+}
+header::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+header h1 {
+    font-size: 3,5rem;
+    margin-buttom: 1rem;
+}
+nav {
+    background-color: rgb(69, 70, 71);
+} 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(206, 235, 236);
+    font-size: 1,5rem;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 1.5rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(148, 210, 233);
+    font-weight: bold;
+    transition: color 0,3s ease;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+.menu li {
+    margin: 0,1rem;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(148, 210, 233);
+    font-weight: bold;
+    transition: color 0,3s ease;
+}
+.menu li a:hover {
+    color: #ffcc00;
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: rgb(99, 161, 108);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+}
+.Menu {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.menu h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.menu.item {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin: 0.5rem;
+    max-width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 3rem;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0,3 ease;
+
+}
+ .menu .item .div img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ff2d0035;
+    border-radius: 5px;
+    box-shadow: 4px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+.menu .item img:hover {
+    filter: grayscale(1);
+}
+.menu-item p {
+    font-size: 1rem;
+    margin: 0,5rem 0;
+    
+ }
+ .menu-item .buton {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 0,5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background color 0,3s ease;
+    
+ }
+ .menu-item .buton:hover {
+    background-color: #555;
+    color: white;
+ }
+ .Galery {
+    margin-bottom: 2rem;
+    text-align: center;
+
+ }
+ .Galery h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+ }
+ .Galery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .Galery-item {
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    flex: 1;
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: calc(30, 30%, 1rem);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0,3s ease;
+
+ }
+
+ .galery-item .item:hover {
+    transform: scale(1,1);
+ }
+ .galery-item .img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+ }
+ div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ div img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #ff3d0036;
+    border-radius;13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+ }
+ div.img:hover {
+    filter: grayscale(1);
+    transform:scale(1,03);
+ }
+ .contact {
+    margin-bottom: 2rem;
+    text-align: center;
+
+ }
+ .contact h3 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+
+ }
+ .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7rem;
+    text-align: center;
+
+ }
+ .contact-text {
+    flex: 1;
+
+ }
+ .contact .text .p {
+    font-size: 1,2rem;
+    margin: 0;
+ }
+ 
